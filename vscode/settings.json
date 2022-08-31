@@ -1,8 +1,16 @@
 {
     "editor.fontFamily": "Input",
-    "editor.rulers": [100],
-    "files.insertFinalNewline": true,
+    "editor.rulers": [
+        100
+    ],
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "[ruby]": {
+        "editor.defaultFormatter": "Shopify.ruby-lsp",
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.semanticHighlighting.enabled": true
+    },
     "terminal.integrated.shell.osx": "/usr/local/bin/zsh"
 }
