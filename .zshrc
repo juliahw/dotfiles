@@ -48,6 +48,10 @@ function gap {
   git status
 }
 
+function gco {
+  git checkout "$@"
+}
+
 function gfp {
   git push --force
 }
