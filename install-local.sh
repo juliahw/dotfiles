@@ -21,10 +21,10 @@ brew install alacritty --no-quarantine
 echo 'Installing Python3…'
 brew install python@3.10
 
-echo 'Installing ripgrep...'
+echo 'Installing ripgrep…'
 brew install ripgrep
 
-echo 'Installing zsh...'
+echo 'Installing zsh…'
 brew install zsh
 brew install zsh-completions
 
@@ -38,6 +38,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 echo 'Installing tmux…'
 brew install tmux
+
+echo 'Installing fzf…'
+brew install fzf
+$(brew --prefix)/opt/fzf/install
 
 echo 'Installing Visual Studio Code…'
 brew install visual-studio-code
