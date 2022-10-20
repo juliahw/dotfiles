@@ -32,6 +32,11 @@ export FZF_DEFAULT_COMMAND="rg --files --hidden --glob '"'!*.git/'"'"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh || true
 
+# Local configuration
+if [ -f "$HOME/.zshrc-local" ]; then
+  source "$HOME/.zshrc-local"
+fi
+
 # Functions
 function die {
   tmux kill-server
