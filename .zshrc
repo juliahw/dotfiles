@@ -37,6 +37,9 @@ if [ -f "$HOME/.zshrc-local" ]; then
   source "$HOME/.zshrc-local"
 fi
 
+# Aliases
+alias gco='git checkout'
+
 # Functions
 function die {
   tmux kill-server
@@ -51,10 +54,6 @@ function gap {
   git commit --all --amend --no-edit
   git push --force
   git status
-}
-
-function gco {
-  git checkout "$@"
 }
 
 function gfp {
