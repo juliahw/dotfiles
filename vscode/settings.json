@@ -1,6 +1,7 @@
 {
     "editor.fontFamily": "Input",
     "editor.rulers": [
+        80,
         100
     ],
     "files.trimFinalNewlines": true,
