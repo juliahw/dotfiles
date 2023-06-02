@@ -38,7 +38,8 @@ if [ -f "$HOME/.zshrc-local" ]; then
 fi
 
 # Aliases
-alias gco='git checkout'
+alias gco="git checkout"
+alias gcan="git commit --amend --no-edit"
 
 # Functions
 function die {
